@@ -1,7 +1,7 @@
 
 import {Timerbtn} from './timerbtn'
 import './timer.css';
-import { FC, useState } from 'react';
+import {  useState } from 'react';
 
 export function Timer () {
  const [ start , setStart] = useState( {ms:0 , s:0 , m: 0 ,  h: 0  } )

@@ -5,7 +5,7 @@ export function Timerbtn(props) {
 
 
         <div >
-            {(props.status == 0) ?
+            {(props.status === 0) ?
                 <button id="Start" onClick={props.val}>Start</button> : " "
 
             }
